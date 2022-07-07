@@ -3,20 +3,6 @@ body {
 	color: #3772FF;
 }
 
-.patas {
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	z-index: 3;
-}
-
-.background3 {
-	position: absolute;
-	left: 0px;
-	top: 35%;
-	z-index: 1;
-}
-
 .main_content {
 	width: 312px;
 }
@@ -49,6 +35,7 @@ body {
 .main_form > input {
 	display: inline-block;
 	text-align: center;
+	font-family: inherit;
 	font-size: 12px;
 	line-height: 16px;
 	border: none;
@@ -65,7 +52,22 @@ body {
 	color: #BCBCBC;
 }
 
+.esqueci_senha {
+	display: block;
+	font-size: 12px;
+	line-height: 24px;
+	color: #FC7071;
+	margin-top: 8px;
+}
+
 .main_form > .main_btn {
 	margin: 24px auto 105px auto;
 }
 
+.margin_login h1 {
+	margin: 50px 0px 42px 0px;
+}
+
+.margin_login .logo {
+	margin: 0px;
+}

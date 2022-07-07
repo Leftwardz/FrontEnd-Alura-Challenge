@@ -32,6 +32,21 @@ body {
 	z-index: 1;
 }
 
+.background3 {
+	position: absolute;
+	left: 0px;
+	top: 350px;
+	z-index: 1;
+}
+
+.patas {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 3;
+}
+
+
 .logo {
 	margin-bottom: 20px;
 }
@@ -50,7 +65,7 @@ body {
 .header > a {
 	width: 50px;
 	text-align: center;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .main_title {

@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+	color: #3772FF;
+}
+
+.usuario_link {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.main_content {
+	margin-bottom: 32px;
+}
+
+.animal_container {
+	display: flex;
+	align-items: center;
+	width: 360px;
+	height: 196px;
+	margin: 0px auto 16px auto;
+	list-style: none;
+	padding: 0px 16px 0px 24px;
+	background-color: #F6F6F6;
+}
+
+.animal_information {
+	margin-left: 16px;
+}
+
+.animal_information h2 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+
+.animal_information ul {
+	margin-bottom: 30px;
+}
+
+.animal_information  ul  li {
+	list-style: none;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #737380;
+}
+
+.animal_information p {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	color: #737380;
+	margin-bottom: 8px;
+}
+
+.animal_information a {
+	display: flex;
+	align-items: flex-start;
+	text-decoration: none;
+}
+
+.animal_information a p {
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 16px;
+	color: #737380;
+	height: 16px;
+	margin: 0px 0px 0px 8px;
+}
+
+
