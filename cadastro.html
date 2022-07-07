@@ -8,7 +8,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
-	<title>Página Inicial</title>
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+
+	<title>Cadastro</title>
 </head>
 
 <body>
@@ -20,20 +22,40 @@
 	<main>
 		<img class="background1" src="images/background1.svg">
 		
-		<img class="background2" src="images/background2.svg">
+		<img class="background3" src="images/background3.svg">
+
+		<img class="patas" src="images/Patas.svg">
 
 		<section class="main_content">
-			<img class="logo" src="images/Logo.svg" alt="Adotopet">
-			<h1 class="main_title">Boas-vindas!</h1>
-			<p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
-			<a href="" class="main_btn">Já tenho conta</a>
-			<a href="" class="main_btn">Quero me cadastrar</a>
+			<img class="logo" src="images/Logo2.svg">
+			<h1>Ainda não tem cadastro?</h1>
+			<p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
 		</section>
+
+		<form class="main_form">
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" required placeholder="Escolha o seu email">
+
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" required placeholder="Digite seu nome completo">
+
+			<label for="password">Senha</label>
+			<input type="password" name="password" id="password" required placeholder="Crie uma senha">
+
+			<label for="password2">Confirme sua senha</label>
+			<input type="password" name="password2" id="password2" required placeholder="Repita a senha cridada acima">
+
+			<a class="main_btn btn" href="#">Cadastrar</a>
+
+		</form>
+
+		
+
 	</main>
 
 	<footer class="footer"> 
-		<img class="dogs_ilustration" src="images/Ilustração.svg">
 		<p>2022 - Desenvolvido por Alura.</p>
 	</footer>
 </body>
 </html>
+

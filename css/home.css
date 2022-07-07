@@ -7,7 +7,7 @@
 body {
 	display: flex;
 	flex-direction: column;
-	align-content: space-between;
+	justify-content: space-between;
 	width: 100%;
 	min-height: 100vh;
 	background-color: #3772FF;
@@ -15,6 +15,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: white;
+	
 }
 
 .background1 {
@@ -60,10 +61,12 @@ body {
 }
 
 .main_content {
+	font-family: 'Poppins';
+	font-weight: 400;
+	font-size: 16px;
 	text-align: center;
 	width: 248px;
 	max-width: 488px;
-	padding: ;
 	margin: auto;
 }
 
@@ -72,7 +75,8 @@ body {
 }
 
 .main_btn {
-	display: inline-block;
+	display: block;
+	margin: auto;
 	width: 180px;
 	font-weight: 600;
 	color: white;
@@ -95,6 +99,7 @@ body {
 footer {
 	width: 100%;
 	text-align: center;
+	color: white;
 }
 
 footer > img {
