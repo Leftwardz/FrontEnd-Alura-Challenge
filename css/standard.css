@@ -1,0 +1,50 @@
+.logo{
+	margin-bottom: 20px;
+}
+
+.standard-content{
+	text-align: center;
+	width: 312px;
+	margin: auto;
+}
+
+.standard-content__title{
+	color: #3772FF;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	margin: 16px;
+}
+
+.standard-content__text {
+	color: #3772FF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 10px;
+}
+
+.login-magin-top{
+	margin-top: 50px;
+}
+
+.standard-content--animal{
+	color: #3772FF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 32px;
+	width: 226px;
+}
+
+.standard-content--perfil{
+	color: #3772FF;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 32px;
+	width: 247px;
+}

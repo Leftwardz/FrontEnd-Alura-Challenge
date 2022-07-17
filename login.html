@@ -7,44 +7,39 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
+   <link rel="stylesheet" type="text/css" href="css/reset.css">
+   <link rel="stylesheet" type="text/css" href="css/padrao.css">
+   <link rel="stylesheet" type="text/css" href="css/standard.css">
+   <link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/forms.css">
-
-	<title>Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="css/standard_btn.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+   <link rel="stylesheet" type="text/css" href="css/backgrounds.css">
+	<title>Login</title>
 </head>
 
-<body>
+<body class="background-login">
 	<header class="header">
 		<a class="home_link" href="#"><img src="images/Casa.svg"></a>
 		<a class="message_link" href="#"><img src="images/Mensagens.svg"></a>
 	</header>
 
 	<main>
-		<img class="background1" src="images/background1.svg">
-		
-		<img class="background3" src="images/background3.svg">
-
-		<img class="patas" src="images/Patas.svg">
-
-		<section class="main_content margin_login">
+		<section class="standard-content">
 			<img class="logo" src="images/Logo2.svg">
-			<h1>Já tem conta? Faça seu login:</h1>
+			<h1 class="standard-content__text login-magin-top">Já tem conta? Faça seu login:</h1>
 		</section>
 
-		<form class="main_form">
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" required placeholder="Escolha o seu email">
+		<form class="main-form">
+			<label class="main-form__label" for="email">Email</label>
+			<input class="main-form__input" name="email" id="email" required placeholder="Escolha o seu email">
 
-			<label for="password">Senha</label>
-			<input type="password" name="password" id="password" required placeholder="Crie uma senha">
-			<a class="esqueci_senha" href="#">Esqueci minha senha</a>
+			<label class="main-form__label" for="password">Senha</label>
+			<input class="main-form__input" type="password" name="password" id="password" required placeholder="Crie uma senha">
+			<a class="esqueci-senha" href="#">Esqueci minha senha</a>
 
-			<a class="main_btn btn" href="home.html">Entrar</a>
-
+			<a class="standard-btn" href="home.html">Entrar</a>
 		</form>
-
-		
-
 	</main>
 
 	<footer class="footer"> 

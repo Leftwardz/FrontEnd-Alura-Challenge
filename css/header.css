@@ -1,0 +1,23 @@
+.header {
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+	height: 128px;
+	width: 100%;
+	background-color: transparent;
+	margin-bottom: 40px;
+}
+
+.header > a {
+	width: 50px;
+	text-align: center;
+	margin-left: 40px;
+}
+
+.usuario_link {
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}

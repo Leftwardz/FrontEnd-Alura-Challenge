@@ -1,0 +1,14 @@
+footer {
+	color: white;
+	font-family: 'Poppins';
+	font-weight: 400;
+	text-align: center;
+	width: 100%;
+}
+
+footer > p {
+	position: relative;
+	z-index: 2;
+	padding: 43px 0px;
+	background-color: #36D6AD;
+}
