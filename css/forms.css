@@ -59,6 +59,7 @@
 	border: none;
 	border-radius: 6px;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+	color: #737380;
 	display: inline-block;
 	font-family: inherit;
 	font-size: 12px;
@@ -69,7 +70,9 @@
 }
 
 .main-form__input--mensagem {
+	line-height: 26px;
 	height: 172px;
+	overflow: hidden;
 	resize: none;
 }
 
