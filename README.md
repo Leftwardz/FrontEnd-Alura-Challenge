@@ -1,4 +1,4 @@
-# Site-API-and-javascript
+# Challenge Front-End
 
 Link to visualize: https://leftwardz.github.io/Site-API-and-javascript/
 
